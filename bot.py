@@ -50,5 +50,5 @@ async def change_status():
 
 
 
-
-client.run("NzI2MDEwMzA1OTIyMjAzNjg5.XvXD7g.JB2sr6YrxJ-xIKmQHr96K3xe_Sg")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
